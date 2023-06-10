@@ -4,7 +4,7 @@ class ModelNiat {
   String? arabic;
   String? latin;
   String? terjemahan;
-
+  
   ModelNiat(this.id, this.name, this.arabic, this.latin, this.terjemahan);
 
   ModelNiat.fromJson(Map<String, dynamic> json) {
